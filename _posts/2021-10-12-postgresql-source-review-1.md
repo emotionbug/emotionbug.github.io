@@ -4,7 +4,6 @@ author: Alex Kwak
 date: '2021-10-12 13:16:00 +0900'
 categories: [Database, PostgreSQL]
 tags: [postgresql, 소스분석]
-pin: true
 published: true
 ---
 해당 게시물은 아래 블로그의 내용을 번역한 글입니다.

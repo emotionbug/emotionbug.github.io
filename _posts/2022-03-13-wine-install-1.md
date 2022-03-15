@@ -4,7 +4,6 @@ author: Alex Kwak
 date: '2022-03-13 23:30 +0900'
 categories: [Application]
 tags: [wine]
-pin: true
 published: true
 ---
 ### 참고

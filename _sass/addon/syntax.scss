@@ -112,6 +112,8 @@ code {
     padding: 3px 5px;
     border-radius: 4px;
     background-color: var(--inline-code-bg);
+    background-color: var(--inline-code-color);
+    font-weight: bold;
   }
 
   &.filepath {

@@ -156,11 +156,11 @@ defaults:
   - scope:
       path: assets/img/favicons
     values:
-      swcache: true
+      swcache: false
   - scope:
       path: assets/js/dist
     values:
-      swcache: true
+      swcache: false
 
 sass:
   style: compressed

@@ -47,6 +47,7 @@ https://github.com/korean-input/issues/issues/14
 ### 알림 및 파일 전송
 
 `설정` -> `실험실` -> `전체화면에서 알림 받기` 활성화
+
 `설정` -> `실험실` -> `카카오톡 속도 개선 (beta)` 활성화
 
 ![스크린샷](/assets/posts/2022-03-19-wine-kakaotalk/스크린샷, 2022-03-19 09-41-57.png)

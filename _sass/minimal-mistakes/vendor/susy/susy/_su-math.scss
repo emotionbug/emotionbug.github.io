@@ -22,7 +22,7 @@
 /// @ignore _su-calc-span
 /// @ignore _su-calc-sum
 /// @ignore _su-needs-calc-output
-
+@use "sass:math";
 
 
 // Su Span
@@ -90,12 +90,11 @@
   @if unitless($span-width) {
     $container-spread: su-valid-spread($container-spread);
     $container: _su-sum($columns, $gutters, $container-spread, $validate: false);
-    @return percentage($span-width / $container);
+    @return percentage(math.div($span-width, $container));
   }
 
   @return $span-width;
 }
-
 
 
 // Su Gutter
@@ -141,9 +140,8 @@
   }
 
   $container: _su-sum($columns, $gutters, $container-spread);
-  @return percentage($gutters / $container);
+  @return percentage(math.div($gutters / $container));
 }
-
 
 
 // Su Slice
@@ -195,7 +193,6 @@
 }
 
 
-
 // Su Sum
 // ------
 /// Get the total sum of column-units in a layout.
@@ -238,7 +235,6 @@
 
   @return $total;
 }
-
 
 
 // Su Calc
@@ -313,7 +309,6 @@
 }
 
 
-
 // Su Calc-Sum
 // -----------
 /// Get the total sum of fixed and fluid column-units
@@ -352,7 +347,7 @@
   $calc: null;
 
   // Gutters
-  $gutters:  $gutters * (length($columns) + $spread);
+  $gutters: $gutters * (length($columns) + $spread);
 
   // Columns
   @each $col in append($columns, $gutters) {
@@ -381,13 +376,12 @@
 
   // Return map
   $return: (
-    'fixed': $calc,
-    'fluid': $fluid,
+          'fixed': $calc,
+          'fluid': $fluid,
   );
 
   @return $return;
 }
-
 
 
 // Needs Calc

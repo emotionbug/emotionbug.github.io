@@ -1,6 +1,7 @@
 /* ==========================================================================
    ARCHIVE
    ========================================================================== */
+@use "sass:math";
 
 .archive {
   margin-top: 1em;
@@ -50,7 +51,7 @@
   margin-top: 1.3em;
   margin-bottom: 0.25em;
   font-family: $sans-serif;
-  font-size: ($h-size-4 + $h-size-3) / 2;
+  font-size: math.div(($h-size-4 + $h-size-3), 2);
   font-weight: 500;
   line-height: initial;
   overflow: hidden;
@@ -474,7 +475,7 @@
     margin-top: 0.5em;
     margin-bottom: 1.2em;
     text-align: center;
-    font-size: ($h-size-2 + $h-size-3) / 2;
+    font-size: math.div(($h-size-2 + $h-size-3), 2);
     font-weight: 600;
   }
 }

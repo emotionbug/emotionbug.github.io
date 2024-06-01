@@ -80,6 +80,10 @@
     margin-top: 1em;
     border-bottom: none;
   }
+
+  li {
+    word-break: break-all;
+  }
 }
 
 .archive__item-excerpt {
@@ -455,7 +459,7 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -478,7 +482,7 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }

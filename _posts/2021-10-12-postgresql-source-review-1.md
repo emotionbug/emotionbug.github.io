@@ -2,7 +2,8 @@
 title: 'PostgreSQL 소스분석(1) - 데이터 삽입#1'
 author: Alex Kwak
 date: '2021-10-12 13:16:00 +0900'
-categories: [Database, PostgreSQL]
+categories:
+  - dev_database
 tags: [postgresql, 소스분석]
 published: true
 ---

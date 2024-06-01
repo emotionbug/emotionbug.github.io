@@ -2,7 +2,8 @@
 title: 'Wine 7+ 에서의 카카오톡 설정'
 author: Alex Kwak
 date: '2022-03-19 04:46 +0900'
-categories: [Application]
+categories:
+  - dev_application
 tags: [wine]
 published: true
 ---

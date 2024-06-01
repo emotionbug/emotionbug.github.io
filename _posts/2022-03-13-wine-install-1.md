@@ -2,7 +2,8 @@
 title: 'Wine 빌드 및 설치'
 author: Alex Kwak
 date: '2022-03-13 23:30 +0900'
-categories: [Application]
+categories:
+  - dev_application
 tags: [wine]
 published: true
 ---

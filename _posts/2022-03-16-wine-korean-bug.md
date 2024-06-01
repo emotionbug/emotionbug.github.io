@@ -2,7 +2,8 @@
 title: 'Wine 한국어 버그 수정'
 author: Alex Kwak
 date: '2022-03-16 05:30 +0900'
-categories: [Application]
+categories:
+  - dev_application
 tags: [wine]
 published: true
 ---

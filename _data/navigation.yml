@@ -18,14 +18,14 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "개발"
-    children:
-      - title: "Database"
-        url: /categories/dev_database/
-      - title: "Application"
-        url: /categories/dev_application/
-      - title: "Java"
-        url: /categories/dev_java/
+  - title: "개발.Database"
+    url: /categories/dev_database/
+
+  - title: "개발.Application"
+    url: /categories/dev_application/
+
+  - title: "개발.Java"
+    url: /categories/dev_java/
 
   - title: "운동"
     url: /categories/exercise/

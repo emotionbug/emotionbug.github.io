@@ -29,7 +29,6 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "emotionbug/emotionbug.github.io" # GitHub Repo 이름
 teaser: #
 date_time_format: '%Y-%m-%M, %H:%M'
-date_format: '%Y-%m-%M'
 
 # logo                     : # 블로그명 앞에 로고 추가하고 싶을 경우 사용
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
